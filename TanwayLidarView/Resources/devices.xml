@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DeviceConfig>
+	<Device type="Tensor-Lite" protocol="101" fixedPackLen="1440" gps_protocol = "11" gps_fixedPackLen="120" fixedPackCountForFrame="29"></Device>
+	<Device type="Tensor-Pro" protocol="101" fixedPackLen="1440" gps_protocol = "11" gps_fixedPackLen="120" fixedPackCountForFrame="29"></Device>
+	<Device type="Scope(Beta)" protocol="102" fixedPackLen="1120" gps_protocol = "11" gps_fixedPackLen="120" fixedPackCountForFrame="483"></Device>
+</DeviceConfig>
