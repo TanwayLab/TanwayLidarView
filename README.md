@@ -1,13 +1,13 @@
-# tensorview-released
-TensorView 是探维科技TensorPro系列产品的上位机软件，在Windows环境下开发测试通过。
+# TanwayLidarView
+TanwayLidarView 是探维科技TensorPro系列产品的上位机软件，在Windows环境下开发测试通过。
 
 
 
 
 
-# TensorView使用概览
+# TanwayLidarView使用概览
 
-[TensorView软件使用的准备工作](#TensorView软件使用的准备工作)
+[TanwayLidarView软件使用的准备工作](#TanwayLidarView软件使用的准备工作)
 
 [操作系统的准备工作](#操作系统的准备工作)
 
@@ -17,13 +17,13 @@ TensorView 是探维科技TensorPro系列产品的上位机软件，在Windows�
 
 
 
-## TensorView软件使用的准备工作
+## TanwayLidarView软件使用的准备工作
 
-软件下载地址：https://github.com/tanwayRD/tensorview-released
+软件下载地址：https://github.com/TanwayLab/TanwayLidarView.git
 
 安装方法：软件下载为.ZIP的压缩包，直接解压缩到指定文件目录即可
 
-执行程序：**/TensorView/TensorView.exe
+执行程序：**/TanwayLidarView/TanwayLidarView.exe
 
 
 
@@ -55,4 +55,5 @@ TensorView 是探维科技TensorPro系列产品的上位机软件，在Windows�
 | 1.0.6  | 2021/02/04 | 通道1反向问题<br />加载pcap时主动取消会造成程序假死BUG       |
 | 1.1.0  | 2021/04/02 | pcap文件加载优化，支持未使用过滤规则的pcap文件加载，优化加载速度<br/>增加新版雷达的IP地址、端口修改功能（限Tensor-Pro）<br/>日志信息的完善，增加更多状态信息用于排查使用状态<br/>其他已知BUG和易用性优化 |
 | 1.1.1  | 2021/04/30 | 软件图标更换<br/>软件名称更改为：TanwayLidarView<br/>增加正交视图显示模式<br/>增加完整用户手册<br/>修改加载pcap文件后的导出csv数据集不正确的bug<br/>雷达配置参数修改时改动雷达IP地址后，不能进行二次修改的BUG<br/>其他已知BUG和易用性优化 |
+| 1.1.2  | 2021/05/08 | 更新device.xml配置文件                                       |
 
